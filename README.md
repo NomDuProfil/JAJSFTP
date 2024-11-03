@@ -2,7 +2,7 @@
 
 ## Description
 
-This project aims to create an SFTP server with storage in an S3 bucket within AWS. Although AWS offers this service (https://aws.amazon.com/aws-transfer-family/pricing/), the solution presented here is more cost-effective. It relies on a `t4g.nano` server, which is very inexpensive due to its low power.
+This project aims to create an SFTP server with storage in an S3 bucket within AWS. Although AWS offers this service (https://aws.amazon.com/aws-transfer-family/pricing/), the solution presented here is more cost-effective. It relies on a `t4g.nano` server, which is very inexpensive due to its low power. This project uses the https://github.com/s3fs-fuse/s3fs-fuse project.
 
 Once the server is deployed, all connection information will be sent by email.
 
